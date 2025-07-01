@@ -25,3 +25,7 @@ resource "azurerm_resource_group" "rg_block" {
   name     = "rg3"
   location = "West Europe"
 }
+resource "azurerm_resource_group" "rg_block" {
+  name     = "rg4"
+  location = "West Europe"
+}
